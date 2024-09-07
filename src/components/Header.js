@@ -21,11 +21,10 @@ const Header = () => {
      
       navigate("/");
       
-      console.log("done")
     }).catch((error) => {
       // An error happened.
       navigate("/eror");
-      console.log(error);
+     
     });
     
   };
